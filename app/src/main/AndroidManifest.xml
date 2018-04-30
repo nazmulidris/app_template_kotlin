@@ -12,8 +12,7 @@
   ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
-  -->
-
+-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="engineering.uxd.example.sample">
 
@@ -31,6 +30,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Option1Activity" />
+        <activity android:name=".Option2Activity" />
+        <activity android:name=".Option3Activity" />
+        <activity android:name=".Option4Activity"></activity>
     </application>
 
 </manifest>

@@ -18,11 +18,32 @@ package engineering.uxd.example.sample
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_main.*
+import org.jetbrains.anko.intentFor
+import org.jetbrains.anko.sdk25.coroutines.onClick
+import org.jetbrains.anko.singleTop
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        button_option1.onClick {
+            startActivity(intentFor<Option1Activity>().singleTop())
+        }
+
+        button_option2.onClick {
+            startActivity(intentFor<Option2Activity>().singleTop())
+        }
+
+        button_option3.onClick {
+            startActivity(intentFor<Option3Activity>().singleTop())
+        }
+
+        button_option4.onClick {
+            startActivity(intentFor<Option4Activity>().singleTop())
+        }
+
     }
 }

@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
+package com.developerlife.sample
+
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

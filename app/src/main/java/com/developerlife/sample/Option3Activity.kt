@@ -18,7 +18,6 @@ package com.developerlife.sample
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.developerlife.example.sample.R
 
 class Option3Activity : AppCompatActivity() {
 

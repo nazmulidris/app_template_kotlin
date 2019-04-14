@@ -23,17 +23,17 @@
       android:roundIcon="@mipmap/ic_launcher_round"
       android:supportsRtl="true"
       android:theme="@style/AppTheme">
-    <activity android:name="com.developerlife.sample.MainActivity">
+    <activity android:name=".MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
 
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:name="com.developerlife.sample.Option1Activity" />
-    <activity android:name="com.developerlife.sample.Option2Activity" />
-    <activity android:name="com.developerlife.sample.Option3Activity" />
-    <activity android:name="com.developerlife.sample.Option4Activity"></activity>
+    <activity android:name=".Option1Activity" />
+    <activity android:name=".Option2Activity" />
+    <activity android:name=".Option3Activity" />
+    <activity android:name=".Option4Activity"></activity>
   </application>
 
 </manifest>

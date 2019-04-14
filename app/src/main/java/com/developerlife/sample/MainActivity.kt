@@ -18,7 +18,6 @@ package com.developerlife.sample
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.developerlife.example.sample.R
 import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.intentFor
 import org.jetbrains.anko.singleTop
@@ -30,7 +29,8 @@ class MainActivity : AppCompatActivity() {
     setContentView(R.layout.activity_main)
 
     button_option1.setOnClickListener {
-      startActivity(intentFor<Option1Activity>().singleTop()) }
+      startActivity(intentFor<Option1Activity>().singleTop())
+    }
 
     button_option2.setOnClickListener {
       startActivity(intentFor<Option2Activity>().singleTop())

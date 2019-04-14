@@ -7,7 +7,7 @@ things that are setup in this project.
 1. Kotlin
 2. Gradle plugin version
 3. Dependencies for Anko, support libraries
-4. Project structure for `engineering.uxd.example.sample`
+4. Project structure for `com.developerlife.sample`
 5. `.gitignore` file
 6. Needless test sources and gradle configuration removed
 
@@ -35,6 +35,7 @@ Notes
 
 ## 2. Refactor the template project to match `my_new_sample`
 - In Android Studio, just rename the `sample` folder to whatever your project is (eg: `my_new_sample`) which will update `AndroidManifest.xml`
-- Go into the `build.gradle` for the `app` module, and update the `applicationId` w/ the new name, eg `engineering.uxd.example.my_new_sample`.
+- Go into the `build.gradle` for the `app` module, and update the 
+`applicationId` w/ the new name, eg `com.developerlife.my_new_sample`.
 
 ## 3. Start coding! 

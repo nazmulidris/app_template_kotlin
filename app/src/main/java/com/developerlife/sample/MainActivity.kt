@@ -14,15 +14,35 @@
  * limitations under the License.
  */
 
-package engineering.uxd.example.sample
+package com.developerlife.sample
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.developerlife.example.sample.R
+import kotlinx.android.synthetic.main.activity_main.*
+import org.jetbrains.anko.intentFor
+import org.jetbrains.anko.singleTop
 
-class Option2Activity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    setContentView(R.layout.activity_option2)
+    setContentView(R.layout.activity_main)
+
+    button_option1.setOnClickListener {
+      startActivity(intentFor<Option1Activity>().singleTop()) }
+
+    button_option2.setOnClickListener {
+      startActivity(intentFor<Option2Activity>().singleTop())
+    }
+
+    button_option3.setOnClickListener {
+      startActivity(intentFor<Option3Activity>().singleTop())
+    }
+
+    button_option4.setOnClickListener {
+      startActivity(intentFor<Option4Activity>().singleTop())
+    }
+
   }
 }

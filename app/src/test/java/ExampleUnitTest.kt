@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-package engineering.uxd.example.sample
-
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

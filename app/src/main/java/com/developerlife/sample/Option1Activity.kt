@@ -14,15 +14,16 @@
  * limitations under the License.
  */
 
-package engineering.uxd.example.sample
+package com.developerlife.sample
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.developerlife.example.sample.R
 
-class Option4Activity : AppCompatActivity() {
+class Option1Activity : AppCompatActivity() {
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    setContentView(R.layout.activity_option4)
+    setContentView(R.layout.activity_option1)
   }
 }

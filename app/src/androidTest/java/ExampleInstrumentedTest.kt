@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package engineering.uxd.example.sample
+package com.developerlife.example.sample
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4
